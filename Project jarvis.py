@@ -33,7 +33,7 @@ def ask_ai(prompt):
 
 def speak(audio):
     """
-    Initializes a fresh SAPI5 COM instance per call to guar nm s/2wwwwwwww        antee audio plays
+    Initializes a fresh SAPI5 COM instance per call to guar nm s/2wwwwwwww        ffantee audio plays
     without freezing or dropping out in continuous loops.
     """
     try:
@@ -69,7 +69,7 @@ def wishMe():
 
 def take_command(duration=5, samplerate=16000):
     """
-    Records 5 seconds of audio using sounddevice and converts it to text via Google STT.
+    Records 5 seconds of audio using sounddevice and converts it to text via Google STT.w`
     """
     r = sr.Recognizer()
     print("Listening...")
